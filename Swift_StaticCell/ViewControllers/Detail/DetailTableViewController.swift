@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class MainTableViewController: UITableViewController {
+final class DetailTableViewController: UITableViewController {
 
     // MARK: - View life cycle
 
