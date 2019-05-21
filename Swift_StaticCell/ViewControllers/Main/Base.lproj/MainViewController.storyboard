@@ -19,27 +19,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dwu-Ul-Oag">
-                                <rect key="frame" x="0.0" y="444" width="414" height="418"/>
+                                <rect key="frame" x="0.0" y="375" width="414" height="487"/>
                                 <connections>
                                     <segue destination="kHN-LD-Nna" kind="embed" id="NpI-St-F7f"/>
                                 </connections>
                             </containerView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="S96-XV-uB8">
-                                <rect key="frame" x="82" y="124" width="250" height="250"/>
+                                <rect key="frame" x="107" y="94" width="200" height="200.00000000000006"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="HyB-4F-22r"/>
-                                    <constraint firstAttribute="height" constant="250" id="SNN-c7-o1E"/>
+                                    <constraint firstAttribute="width" constant="200" id="3d8-F5-cQ2"/>
+                                    <constraint firstAttribute="height" constant="200" id="gae-3k-khT"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgW-zr-44z">
+                                <rect key="frame" x="165.5" y="324" width="83" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Dwu-Ul-Oag" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0Bj-gR-OEm"/>
-                            <constraint firstItem="S96-XV-uB8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="3hb-RJ-LF8"/>
-                            <constraint firstItem="Dwu-Ul-Oag" firstAttribute="top" secondItem="S96-XV-uB8" secondAttribute="bottom" constant="70" id="IX3-iv-K7J"/>
+                            <constraint firstItem="S96-XV-uB8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="0jj-Hy-SSR"/>
+                            <constraint firstItem="S96-XV-uB8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CZO-Oh-4SB"/>
+                            <constraint firstItem="Dwu-Ul-Oag" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Sm7-ud-3r0"/>
+                            <constraint firstItem="Dwu-Ul-Oag" firstAttribute="top" secondItem="DgW-zr-44z" secondAttribute="bottom" constant="30" id="W3C-oZ-v2n"/>
                             <constraint firstItem="Dwu-Ul-Oag" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Z03-MD-CxU"/>
+                            <constraint firstItem="Dwu-Ul-Oag" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dEu-g9-YKz"/>
+                            <constraint firstItem="DgW-zr-44z" firstAttribute="top" secondItem="S96-XV-uB8" secondAttribute="bottom" constant="30" id="dGm-df-hfw"/>
                             <constraint firstItem="Dwu-Ul-Oag" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mDi-Om-Fsq"/>
-                            <constraint firstItem="S96-XV-uB8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rnM-tz-vHL"/>
+                            <constraint firstItem="Dwu-Ul-Oag" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="odr-Yi-Wxc"/>
+                            <constraint firstItem="DgW-zr-44z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sOW-1I-HVc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -54,7 +65,7 @@
                 <viewControllerPlaceholder storyboardName="DetailTableViewController" id="kHN-LD-Nna" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zcp-kr-5PP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="700" y="140"/>
+            <point key="canvasLocation" x="665" y="21"/>
         </scene>
     </scenes>
     <resources>
