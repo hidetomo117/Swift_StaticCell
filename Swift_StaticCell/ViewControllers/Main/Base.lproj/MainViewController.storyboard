@@ -25,7 +25,7 @@
                                 </connections>
                             </containerView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="S96-XV-uB8">
-                                <rect key="frame" x="107" y="94" width="200" height="200.00000000000006"/>
+                                <rect key="frame" x="107" y="94" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="3d8-F5-cQ2"/>
                                     <constraint firstAttribute="height" constant="200" id="gae-3k-khT"/>
